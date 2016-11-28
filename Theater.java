@@ -1,33 +1,80 @@
+import java.util.List;
+import java.awt.Point;
 
-/**
- * Write a description of class Theater here.
+/**The Theater class has to ask the Row and Seat class for avalible free seats and be able to mark a seat as
+ * reserved. Stores a list of Rows and a string for Name.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Cory Fields 
+ * @version 2016.11.28
  */
 public class Theater
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private List<Row> rows;
+    private String name;
 
     /**
-     * Constructor for objects of class Theater
+     * Constructor for objects of class Theater. Takes no param.
      */
     public Theater()
     {
-        // initialise instance variables
-        x = 0;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Finds free seats based on a list of points.
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return     List of free seats 
      */
-    public int sampleMethod(int y)
+    public List<Point> FindFreeSeats()
     {
-        // put your code here
-        return x + y;
+        return null;
+    }
+   
+    /**
+     * Reserves a seat based on its row and seat numbers
+     * 
+     * @param Row An int for row number
+     * @param Seat An int for seat number
+     */
+    public void ReserveSeat(int Row, int Seat)
+    {
+        
+    }
+    
+    /**
+     * Method to find the max number of adjacent free seats. Takes no param.
+     */
+    public int FindMaxFreeSeats() 
+    {
+        return 0;
+    }
+    
+    /**
+     * Cancels a reservation based on row and seat number.
+     * 
+     * @param Row An int for row number
+     * @param Seat An int for seat number
+     */
+    public void CancelReservation(int rowNumber, int seatNumber)
+    {
+        
+    }
+    
+    /**
+     * Method to find the max number of adjacent free seats. Takes no param.
+     */
+    public int findAdjacentSeats()
+    {
+        return 0;
+    }
+    
+    /**
+     * Makes a new row of seats.
+     * 
+     * @param rowNumber The row number for the new row created.
+     */
+    public void makeRow(int rowNumber)
+    {
+        
     }
 }

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Theater()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Theater.\ Takes\ no\ param.\n
+comment1.params=
+comment1.target=java.util.List\ FindFreeSeats()
+comment1.text=\n\ Finds\ free\ seats\ based\ on\ a\ list\ of\ points.\n\ \n\ @return\ \ \ \ \ List\ of\ free\ seats\ \n
+comment2.params=Row\ Seat
+comment2.target=void\ ReserveSeat(int,\ int)
+comment2.text=\n\ Reserves\ a\ seat\ based\ on\ its\ row\ and\ seat\ numbers\n\ \n\ @param\ Row\ An\ int\ for\ row\ number\n\ @param\ Seat\ An\ int\ for\ seat\ number\n
+comment3.params=
+comment3.target=int\ FindMaxFreeSeats()
+comment3.text=\n\ Method\ to\ find\ the\ max\ number\ of\ adjacent\ free\ seats.\ Takes\ no\ param.\n
+comment4.params=rowNumber\ seatNumber
+comment4.target=void\ CancelReservation(int,\ int)
+comment4.text=\n\ Cancels\ a\ reservation\ based\ on\ row\ and\ seat\ number.\n\ \n\ @param\ Row\ An\ int\ for\ row\ number\n\ @param\ Seat\ An\ int\ for\ seat\ number\n
+comment5.params=
+comment5.target=int\ findAdjacentSeats()
+comment5.text=\n\ Method\ to\ find\ the\ max\ number\ of\ adjacent\ free\ seats.\ Takes\ no\ param.\n
+comment6.params=rowNumber
+comment6.target=void\ makeRow(int)
+comment6.text=\n\ Makes\ a\ new\ row\ of\ seats.\n\ \n\ @param\ rowNumber\ The\ row\ number\ for\ the\ new\ row\ created.\n
+numComments=7
