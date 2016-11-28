@@ -1,4 +1,4 @@
-
+import java.util.List;
 /**
  * Write a description of class CinemaBookingSystem here.
  * 
@@ -8,7 +8,11 @@
 public class CinemaBookingSystem
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Customers customers;
+    private Show show;
+    private Customer customer;
+    private Theater theater;
+   
 
     /**
      * Constructor for objects of class CinemaBookingSystem
@@ -16,18 +20,31 @@ public class CinemaBookingSystem
     public CinemaBookingSystem()
     {
         // initialise instance variables
-        x = 0;
-    }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
     }
+    
+    /**
+     * Finds a specific show by the date and time.
+     */
+    public List<Show>findShowByDateAndTime(String date, String time)
+    {
+     return null;
+    }
+    
+    /**
+     * Aquires the date and time the shows are playing at that time.
+     */
+    public String findShowsByDateAndTime(String date, String time)
+    {
+        return null;
+    }
+    
+//     /**
+//      * finds a list of empty seats before the shows start.
+//      */
+//     public List<Point>findFreeSeats(String Show)
+//     {
+//         
+//     }
+
 }
