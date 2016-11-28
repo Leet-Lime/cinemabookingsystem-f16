@@ -1,14 +1,15 @@
 
 /**
- * Write a description of class Seat here.
+ * Class of Seat. Can reserve and cancel seats.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Travis Stamper 
+ * @version 2016.11.28
  */
 public class Seat
 {
     // instance variables - replace the example below with your own
-    private int x;
+    int SeatNumber;
+    boolean isReserved;
 
     /**
      * Constructor for objects of class Seat
@@ -16,18 +17,34 @@ public class Seat
     public Seat()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Method that checks to see if a seat has been reserved.
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return Returns if a seat has been reserved or if it is free.
      */
-    public int sampleMethod(int y)
+    
+    
+    public boolean isReserved()
     {
-        // put your code here
-        return x + y;
+       return false; 
+    }
+    
+    /**
+     * Method that reserves a seat.
+     */
+    public void reserveSeat()
+    {
+        
+    }
+    
+    /**
+     * Method that cancels a previously reserved seat.
+     */
+    public void cancelReservation()
+    {
+        
     }
 }
