@@ -1,14 +1,16 @@
+import java.awt.Point;
 
 /**
- * Write a description of class Movie here.
+ * The Movie class contains the information about a specific
+ * movie showing in our theaters.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Howard Francis 
+ * @version 2016.11.28
  */
 public class Movie
 {
     // instance variables - replace the example below with your own
-    private int x;
+    String title;
 
     /**
      * Constructor for objects of class Movie
@@ -16,18 +18,17 @@ public class Movie
     public Movie()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * This method returns the title of the movie
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return the movie's title
      */
-    public int sampleMethod(int y)
+    String getTitle()
     {
-        // put your code here
-        return x + y;
+        return null;
     }
+    
 }
