@@ -1,14 +1,16 @@
-
+import java.awt.Point;
+import java.util.List;
 /**
  * Write a description of class Theaters here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author tyler Bowling
+ * @version 11/28/16
  */
 public class Theaters
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private List<Theaters> theater;
+    private List<Row> seat;
 
     /**
      * Constructor for objects of class Theaters
@@ -16,18 +18,18 @@ public class Theaters
     public Theaters()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+   /**
+    * a method to populate the rows and seatsof the theater
+    * 
+    * @param seatsPerRow Array can containing the number of seats in each row
+    */
+   private void PopulateTheater(int [] seatsPerRow)
+   {
+   
+       
+   }
+    
 }
