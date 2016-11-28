@@ -1,33 +1,54 @@
 
 /**
- * Write a description of class Reservation here.
+ * The Resevation class contains important details needed for a reservation. These details
+ * include the seat number that the viewer may be assigned, the row number that the viewer's seat 
+ * may be in, and the show that the viewer has a reservation for.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Christopher Reynolds 
+ * @version 2016.11.28
  */
 public class Reservation
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private Show show;
+    private int rowNumber;
+    private int seatNumber;
+    
     /**
-     * Constructor for objects of class Reservation
+     * Constructor for objects of class Reservation.
      */
     public Reservation()
     {
-        // initialise instance variables
-        x = 0;
+        // initialize instance variables
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Get the show specified in the reservation
+     * @return show
      */
-    public int sampleMethod(int y)
+    public Show getShow()
     {
-        // put your code here
-        return x + y;
+        // get the show
+        return null;
     }
+    
+    /**
+     * Get the row number specified in the reservation
+     * @return rowNumber
+     */
+    public int getRowNum()
+    {
+        // get the row number
+        return 0;
+    }
+    
+    /**
+     * Get the seat number specified in the reservation
+     * @return seatNumber
+     */
+    public int getSeatNum()
+    {
+        // get the seat number
+        return 0;
+    }
+    
 }
