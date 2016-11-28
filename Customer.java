@@ -1,14 +1,17 @@
-
+import java.awt.Point;
+import java.util.List;
 /**
- * Write a description of class Customer here.
+ * The Customer class contains customer objects that reserve seats for shows. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Marissa Tucker
+ * @version 2016.11.28
  */
 public class Customer
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // fields for the Customer class.
+    String name;
+    List<Reservation> reservations;
+    String PhoneNumber;
 
     /**
      * Constructor for objects of class Customer
@@ -16,18 +19,35 @@ public class Customer
     public Customer()
     {
         // initialise instance variables
-        x = 0;
+
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * This method adds a reservation to a show
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @param Show The show tha the customer wishes to reserve seats for.
+     * @param row The row in which the reseveration is made.
+     * @param seat The seat that is being reserved by the customer object.
      */
-    public int sampleMethod(int y)
+    void addReservation(Show show, int row, int seat)
     {
-        // put your code here
-        return x + y;
+    }
+    
+    /**
+     * This method finds customer reservations by a particular show.
+     * 
+     * @param Show The show that we are using to find customer reservations.
+     */
+    List<Point> findShowReservationbyShow(Show show)
+    {
+        return null;
+    }
+    
+    /**
+     * This method gets the phone number of the customer in the event that they will need to be contacted in the future.
+     */
+    String getPhoneNumber()
+    {
+        return null;
     }
 }
