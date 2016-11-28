@@ -1,33 +1,51 @@
-
+import java.awt.Point;
+import java.util.List;
 /**
- * Write a description of class Row here.
+ * Represents a row of seats in a theater. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Shalem Callaway) 
+ * @version (11/28/2016)
  */
 public class Row
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private List<Seat> seats;
+    private int rownumber; 
 
     /**
      * Constructor for objects of class Row
      */
     public Row()
     {
-        // initialise instance variables
-        x = 0;
-    }
 
+    }
+    
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Finds current seat number.
+     * @return current seat number. 
      */
-    public int sampleMethod(int y)
+    public int getSeatNumber()
     {
-        // put your code here
-        return x + y;
+        return 0;
+        
+
+   
+    }
+    
+    /**
+     * Finds current row number. 
+     * @return current row number.
+     */
+    public int getRowNumber()
+    {
+       return 0; 
+    }
+    
+    /**
+     * Reserve a seat within a row of the theater.
+     * @param seatnumber Seat to be reserved.  
+     */
+    public void reserveSeat(int seatnumber)
+    {
+        
     }
 }
